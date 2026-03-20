@@ -1,9 +1,11 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tro2Z-6l)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23216105&assignment_repo_type=AssignmentRepo)
 # Lab 01: Lógica de Programação com Blockly 🐢
 
 Bem-vindo(a) à sua atividade prática de Lógica Computacional! Siga os passos abaixo para completar o desafio.
 
-**Nome do Aluno:** [Preencha seu nome aqui]
-**Matrícula:** [Preencha sua matrícula]
+**Nome do Aluno:** Heitor Trindade De Azevedo
+**Matrícula:** 20261100014
 ---
 
 ## 🎯 Objetivo
@@ -43,14 +45,16 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 *Suba o screenshot da sua solução final (onde aparece "Você resolveu este nível!") para a pasta **/imagens** deste repositório.*
 
 ## 3. Estratégia Utilizada
-*Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
+  Primeiro eu crei um loop de 5 execuções para desenhar a estrela e ficar em uma posição favroavel para desenhar a proxima, depos disso, identei ele em um loop de 3 execuções(uma para cada estrela).
+  Após desenhar as estrelas, posicionei a tartaruga no centroi do circulo branco e fiz uma execução 360 vezes por meio de um loop para fazer um circulo branco, posicionei a tartaruga um pouco a 
+  direita e acima do centro do circulo branco e com o mesmo processo desenhei um circulo preto.
+
 
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** Precisam de 6 repetições para desenhar o Hexagaono, virando em um angulo de 60 graus.
   
-**B)** Escreva aqui...
+**B)** Precisa andar pra frente e virar 90 graus para a esquerda.
   
-**C)** Escreva aqui...
+**C)** Para desenhar o Hexagono, eu descobri o valor de seus agulos internos e dividi por 2. Para posicionar a tartaruga para desenhar o proximo, eu alinhei ela em 90 graus para girar ela para a esquerda
 
 ---
